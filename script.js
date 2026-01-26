@@ -8,8 +8,18 @@ window.addEventListener('load', () => {
 
 celsiusInput.addEventListener('input', () => {
     fahrenheitInput.value = ((celsiusInput.value * 9) / 5 + 32).toFixed(2);
-    kelvinInput.value = ((celsiusInput.value) + 273.15).toFixed(2);
+    kelvinInput.value = (Number(celsiusInput.value) + 273.15).toFixed(2);
 
     if(!celsiusInput.value) fahrenheitInput.value = "";
+    if(!celsiusInput.value) kelvinInput.value = "";
 
 })
+
+fahrenheitInput.addEventListener('input', () => {
+    celsiusInput.value = (((fahrenheitInput.value - 32) * 5) / 9).toFixed(2);
+    kelvinInput.value = ((((fahrenheitInput.value - 32) * 5) / 9) + 273.15).toFixed(2);
+
+    if(!fahrenheitInput.value) celsiusInput.value = "";
+    if(!fahrenheitInput.value) kelvinInput.value = "";
+})
+
