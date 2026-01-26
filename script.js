@@ -30,3 +30,4 @@ kelvinInput.addEventListener('input', () => {
     if(!kelvinInput.value) celsiusInput.value = "";
     if(!kelvinInput.value) fahrenheitInput.value = "";
 })
+
