@@ -23,3 +23,10 @@ fahrenheitInput.addEventListener('input', () => {
     if(!fahrenheitInput.value) kelvinInput.value = "";
 })
 
+kelvinInput.addEventListener('input', () => {
+    celsiusInput.value = (kelvinInput.value - 273.15).toFixed(2);
+    fahrenheitInput.value = (((kelvinInput.value - 273.15) * 9) / 5 + 32).toFixed(2);
+
+    if(!kelvinInput.value) celsiusInput.value = "";
+    if(!kelvinInput.value) fahrenheitInput.value = "";
+})
