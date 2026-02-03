@@ -19,7 +19,7 @@ Aqui está um exemplo de interação do usuário ao executar o programa:
 
 Nessa interface o usuario escreve a temperatura inicial e recebe a conversão das outras duas temperaturas como resultado.
 
-<p align="center">d
+<p align="center">
   <img src="img/exemplo de uso.png" alt="Tela exemplo interface do conversor" title="Tela exemplo interface do conversor">
 </p>
 
