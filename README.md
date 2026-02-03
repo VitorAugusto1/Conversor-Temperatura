@@ -19,3 +19,8 @@ Aqui está um exemplo de interação do usuário ao executar o programa:
 
 Nessa interface o usuario escreve a temperatura inicial e recebe a conversão das outras duas temperaturas como resultado.
 
+<p align="center">d
+  <img src="img/exemplo de uso.png" alt="Tela exemplo interface do conversor" title="Tela exemplo interface do conversor">
+</p>
+
+Por exemplo, se o usuario quiser a conversão de 32 graus celsius, esse seria o resultado da conversão em fahrenheit e kelvin.
